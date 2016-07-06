@@ -1,0 +1,16 @@
+﻿<div class="well">
+    <input type="text" class="form-control" id="textbox" />
+    <button id="sendit" class="btn btn-success">Send It</button>
+</div>
+
+<div class="well">
+    <h2>Messages:</h2>
+    <ul id="messages"></ul>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.signalR-1.2.2.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/index.js"></script>
+}
